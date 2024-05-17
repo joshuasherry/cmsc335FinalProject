@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const bodyParser = require("body-parser"); /* To handle post parameters */
 
-const portNumber = process.argv[2];
+const portNumber = 4000;
 app.listen(portNumber); 
 console.log(`Web server is running at http://localhost:${portNumber}`);
 process.stdout.write("stop to shutdown the server: ");
