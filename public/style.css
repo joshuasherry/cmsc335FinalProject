@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+body {
+    font-family: 'Audiowide', sans-serif;
+    background-image:url('backgrnd.jpg');
+}
+
+:root{
+    --primary: pink;
+    --secondary: black;
+}
+
+table, td, tr, th{
+    border: 0.05rem solid var(--secondary)
+}
+
+tr:nth-child(2n){
+    background-color:var(--secondary);
+    color:var(--primary);
+}
+
+
+.bodytitle{
+    color: brown;
+    font-size: 5rem;
+}
